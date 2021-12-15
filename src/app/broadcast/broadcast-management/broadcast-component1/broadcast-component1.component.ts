@@ -12,6 +12,7 @@ export class BroadcastComponent1Component implements OnInit {
   ngOnInit(): void {
     console.log(`HI there`);
     console.log(`Test message for feature fourth`);
+    console.log(`test message for feature third`)
   }
 
 }
