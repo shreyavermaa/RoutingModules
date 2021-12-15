@@ -13,7 +13,7 @@ export class BroadcastComponent2Component implements OnInit {
     // console.log(route)
     this.route.params.subscribe(
       (params) => {
-        // console.log(params)
+        console.log(params)
         this.id = params['id']
       }
     )

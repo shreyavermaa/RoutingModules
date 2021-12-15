@@ -10,6 +10,7 @@ export class BroadcastComponent1Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(`HI`);
   }
 
 }
